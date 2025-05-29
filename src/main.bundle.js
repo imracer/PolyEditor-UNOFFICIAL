@@ -506,7 +506,7 @@ var SELECTED_BLOCK_POSITION = null;
               , r = n.n(i)
               , a = n(6314)
               , s = n.n(a)()(r());
-            s.push([e.id, "\n.editor-side-toolbar {\n\tdisplay: flex;\n\tflex-direction: column;\n\tposition: absolute;\n\tbottom: 40px;\n\tleft: 0;\n}\n.editor-side-toolbar.touch {\n\tbottom: 176px;\n}\n\n.editor-side-toolbar > .accordion {\n\tdisplay: flex;\n\tflex-direction: row;\n\twidth: 100px;\n\toverflow: hidden; /* Use hidden if clip is not supported */\n\toverflow: clip;\n\ttransition: width 0.25s ease-out;\n}\n.editor-side-toolbar.touch > .accordion {\n\twidth: 120px;\n}\n.editor-side-toolbar > .accordion.open {\n\twidth: auto;\n}\n\n.editor-side-toolbar button {\n\tposition: relative;\n\tflex-shrink: 0;\n\tmargin: 0;\n\tpadding: 0;\n\twidth: 100px;\n\theight: 100px;\n\tbackground-color: rgba(17, 32, 82, 0.48);\n\tborder: none;\n\tpointer-events: auto;\n\tcursor: pointer;\n\ttransition: background-color 0.25s ease-out;\n}\n.editor-side-toolbar button:hover {\n\tbackground-color: rgba(37, 54, 105, 0.48);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type) {\n\tbackground-color: rgba(17, 32, 82, 0.35);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type):hover {\n\tbackground-color: rgba(37, 54, 105, 0.35);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type).selected {\n\tbackground-color: rgba(17, 32, 82, 0.55);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type):active {\n\tbackground-color: rgba(17, 32, 82, 0.6);\n}\n@media (hover: none) {\n\t.editor-side-toolbar button:hover {\n\t\tbackground-color: rgba(17, 32, 82, 0.48);\n\t}\n}\n.editor-side-toolbar button:active {\n\tbackground-color: rgba(17, 32, 82, 0.6);\n\ttransition: none;\n}\n\n.editor-side-toolbar.touch button {\n\twidth: 120px;\n\theight: 120px;\n}\n\n.editor-side-toolbar button img {\n\tmargin: 0;\n\tpadding: 20%;\n\tvertical-align: top;\n\twidth: 100%;\n    height: 100%;\n\tbox-sizing: border-box;\n\tpointer-events: none;\n\ttransition: transform 0.25s ease-out;\n\tfilter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));\n}\n.editor-side-toolbar button:active img {\n\ttransition: none;\n\ttransform: scale(0.9);\n}\n\n.editor-side-toolbar button.rotate > span {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tposition: absolute;\n\ttop: 0;\n\tleft: 1px;\n\twidth: 100%;\n\theight: 100%;\n\tcolor: var(--text-color);\n\tfont-size: 16px;\n\ttext-shadow: 0 0 2px #000;\n\tpointer-events: none;\n\ttransition: transform 0.25s ease-out;\n}\n.editor-side-toolbar button.rotate:active > span {\n\ttransition: none;\n\ttransform: scale(0.9);\n}\n", ""]);
+            s.push([e.id, "\n.editor-side-toolbar {\n\tdisplay: flex;\n\tflex-direction: column;\n\tposition: absolute;\n\tbottom: 40px;\n\tleft: 0;\n}\n.editor-side-toolbar.touch {\n\tbottom: 176px;\n}\n\n.editor-side-toolbar > .accordion {\n\tdisplay: flex;\n\tflex-direction: row;\n\twidth: 100px;\n\toverflow: hidden; /* Use hidden if clip is not supported */\n\toverflow: clip;\n\ttransition: width 0.25s ease-out;\n}\n.editor-side-toolbar.touch > .accordion {\n\twidth: 80px;\n}\n.editor-side-toolbar > .accordion.open {\n\twidth: auto;\n}\n\n.editor-side-toolbar button {\n\tposition: relative;\n\tflex-shrink: 0;\n\tmargin: 0;\n\tpadding: 0;\n\twidth: 100px;\n\theight: 100px;\n\tbackground-color: rgba(17, 32, 82, 0.48);\n\tborder: none;\n\tpointer-events: auto;\n\tcursor: pointer;\n\ttransition: background-color 0.25s ease-out;\n}\n.editor-side-toolbar button:hover {\n\tbackground-color: rgba(37, 54, 105, 0.48);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type) {\n\tbackground-color: rgba(17, 32, 82, 0.35);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type):hover {\n\tbackground-color: rgba(37, 54, 105, 0.35);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type).selected {\n\tbackground-color: rgba(17, 32, 82, 0.55);\n}\n.editor-side-toolbar > .accordion > button:not(:first-of-type):active {\n\tbackground-color: rgba(17, 32, 82, 0.6);\n}\n@media (hover: none) {\n\t.editor-side-toolbar button:hover {\n\t\tbackground-color: rgba(17, 32, 82, 0.48);\n\t}\n}\n.editor-side-toolbar button:active {\n\tbackground-color: rgba(17, 32, 82, 0.6);\n\ttransition: none;\n}\n\n.editor-side-toolbar.touch button {\n\twidth: 80px;\n\theight: 80px;\n}\n\n.editor-side-toolbar button img {\n\tmargin: 0;\n\tpadding: 20%;\n\tvertical-align: top;\n\twidth: 100%;\n    height: 100%;\n\tbox-sizing: border-box;\n\tpointer-events: none;\n\ttransition: transform 0.25s ease-out;\n\tfilter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));\n}\n.editor-side-toolbar button:active img {\n\ttransition: none;\n\ttransform: scale(0.9);\n}\n\n.editor-side-toolbar button.rotate > span {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tposition: absolute;\n\ttop: 0;\n\tleft: 1px;\n\twidth: 100%;\n\theight: 100%;\n\tcolor: var(--text-color);\n\tfont-size: 16px;\n\ttext-shadow: 0 0 2px #000;\n\tpointer-events: none;\n\ttransition: transform 0.25s ease-out;\n}\n.editor-side-toolbar button.rotate:active > span {\n\ttransition: none;\n\ttransform: scale(0.9);\n}\n", ""]);
             const o = s
         }
         ,
@@ -33667,7 +33667,7 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
         tE.insertStyleElement = h();
         t()(eE.A, tE);
         eE.A && eE.A.locals && eE.A.locals;
-        var nE, iE, rE, aE, sE, oE, lE, cE, set = function(e, t, n, i, r) {
+        var nE, touchEnabledMap, editorButtonDiv, aE, sE, oE, lE, cE, set = function(e, t, n, i, r) {
             if ("m" === i)
                 throw new TypeError("Private method is not writable");
             if ("a" === i && !r)
@@ -33684,28 +33684,51 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
             return "m" === n ? i : "a" === n ? i.call(e) : i ? i.value : t.get(e)
         };
         nE = new WeakMap,
-        iE = new WeakMap,
-        rE = new WeakMap,
+        touchEnabledMap = new WeakMap,
+        editorButtonDiv = new WeakMap,
         aE = new WeakMap,
         sE = new WeakMap,
         oE = new WeakMap,
         lE = new WeakMap,
         cE = new WeakMap;
         const EditorToolbar = class {
-            constructor(e, t, n, i, r, a, s) {
+            constructor(e, t, touchEnabled, blockmixingCallback, smallGridCallback, editorAxisCallback, editorRotateCallback, editorCopyCallback, editorUndoCallback) {
                 nE.set(this, void 0),
-                iE.set(this, void 0),
-                rE.set(this, void 0),
+                touchEnabledMap.set(this, void 0),
+                editorButtonDiv.set(this, void 0),
                 aE.set(this, void 0),
                 sE.set(this, void 0),
                 oE.set(this, void 0),
                 lE.set(this, []),
                 cE.set(this, void 0),
                 set(this, nE, e, "f"),
-                set(this, iE, n, "f"),
-                set(this, rE, document.createElement("div"), "f"),
-                get(this, rE, "f").className = "editor-side-toolbar",
-                get(this, nE, "f").appendChild(get(this, rE, "f"));
+                set(this, touchEnabledMap, touchEnabled, "f"),
+                set(this, editorButtonDiv, document.createElement("div"), "f"),
+                get(this, editorButtonDiv, "f").className = "editor-side-toolbar",
+                get(this, nE, "f").appendChild(get(this, editorButtonDiv, "f"));
+
+                const undoButton = document.createElement("button")
+                  , undoImage = document.createElement("img");
+                undoImage.src = "images/clock.svg",
+                undoButton.appendChild(undoImage),
+                undoButton.addEventListener("click", ( () => {
+                    t.playUIClick();
+                    editorUndoCallback();
+                }
+                )),
+                get(this, editorButtonDiv, "f").appendChild(undoButton);
+
+                const copyButton = document.createElement("button")
+                  , copyImage = document.createElement("img");
+                copyImage.src = "images/clipboard.svg",
+                copyButton.appendChild(copyImage),
+                copyButton.addEventListener("click", ( () => {
+                    t.playUIClick();
+                    editorCopyCallback();
+                }
+                )),
+                get(this, editorButtonDiv, "f").appendChild(copyButton);
+
                 let o = !1;
                 const l = document.createElement("button")
                   , c = document.createElement("img");
@@ -33715,10 +33738,11 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
                     t.playUIClick(),
                     o = !o,
                     c.src = o ? "images/overlapping_enabled.svg" : "images/overlapping_disabled.svg",
-                    i(o)
+                    blockmixingCallback(o)
                 }
                 )),
-                get(this, rE, "f").appendChild(l);
+                get(this, editorButtonDiv, "f").appendChild(l);
+
                 let h = !0;
                 const d = document.createElement("button")
                   , u = document.createElement("img");
@@ -33728,13 +33752,13 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
                     t.playUIClick(),
                     h = !h,
                     u.src = h ? "images/grid_large.svg" : "images/grid_small.svg",
-                    r(h)
+                    smallGridCallback(h)
                 }
                 )),
-                get(this, rE, "f").appendChild(d);
+                get(this, editorButtonDiv, "f").appendChild(d);
                 const p = document.createElement("div");
                 p.className = "accordion",
-                get(this, rE, "f").appendChild(p),
+                get(this, editorButtonDiv, "f").appendChild(p),
                 set(this, oE, document.createElement("button"), "f"),
                 get(this, oE, "f").innerHTML = '<img src="images/rotation_axis_y_positive.svg">',
                 get(this, oE, "f").addEventListener("click", ( () => {
@@ -33772,7 +33796,7 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
                     }
                     n.addEventListener("click", ( () => {
                         t.playUIClick(),
-                        a(e)
+                        editorAxisCallback(e)
                     }
                     )),
                     e == nA.YPositive && n.classList.add("selected"),
@@ -33783,24 +33807,24 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
                 f.className = "rotate",
                 f.addEventListener("click", ( () => {
                     t.playUIClick(),
-                    s()
+                    editorRotateCallback()
                 }
                 )),
-                get(this, rE, "f").appendChild(f),
+                get(this, editorButtonDiv, "f").appendChild(f),
                 set(this, aE, document.createElement("div"), "f"),
                 get(this, aE, "f").innerHTML = '<img src="images/rotate.svg">',
                 f.appendChild(get(this, aE, "f")),
                 set(this, sE, document.createElement("span"), "f"),
                 get(this, sE, "f").textContent = "0°",
                 f.appendChild(get(this, sE, "f")),
-                n.addChangeListener(set(this, cE, (e => {
-                    e ? get(this, rE, "f").classList.add("touch") : get(this, rE, "f").classList.remove("touch")
+                touchEnabled.addChangeListener(set(this, cE, (e => {
+                    e ? get(this, editorButtonDiv, "f").classList.add("touch") : get(this, editorButtonDiv, "f").classList.remove("touch")
                 }
                 ), "f"))
             }
             dispose() {
-                get(this, nE, "f").removeChild(get(this, rE, "f")),
-                get(this, iE, "f").removeChangeListener(get(this, cE, "f"))
+                get(this, nE, "f").removeChild(get(this, editorButtonDiv, "f")),
+                get(this, touchEnabledMap, "f").removeChangeListener(get(this, cE, "f"))
             }
             set rotation(e) {
                 get(this, aE, "f").style.transform = `rotate(${(90 * -e).toString()}deg)`,
@@ -33835,10 +33859,10 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
                     t == e ? n.classList.add("selected") : n.classList.remove("selected")
             }
             hide() {
-                get(this, rE, "f").classList.add("hidden")
+                get(this, editorButtonDiv, "f").classList.add("hidden")
             }
             show() {
-                get(this, rE, "f").classList.remove("hidden")
+                get(this, editorButtonDiv, "f").classList.remove("hidden")
             }
         }
         ;
@@ -35993,6 +36017,12 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
                         set(this, selectedBlockRotation, (get(this, selectedBlockRotation, "f") + 1) % 4, "f"),
                         get(this, editorToolbar, "f").rotation = get(this, selectedBlockRotation, "f"),
                         get(this, editorFunctionsMap, "m", updatePartRotation).call(this)
+                    }),
+                    (() => {
+                        get(this, editorFunctionsMap, "m", editorCopy).call(this)
+                    }),
+                    (() => {
+                        get(this, editorFunctionsMap, "m", editorUndo).call(this)
                     })
                 ), "f");
                 const x = document.createElement("button");
