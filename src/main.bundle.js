@@ -41831,7 +41831,7 @@ new Block("5801b3268c75809728c63450d06000c5f6fcfd5d72691902f99d7d19d25e1d78",KA.
                     console.error(e)
                 }
                 ));
-                Promise.all(["90_reset.track", "arabica.track", "clay_temples.track", "concrete_jungle.track", "desert_stallion.track", "hyperions_sanctuary.track", "las_calles.track", "last_remnant.track", "lu_muvimento.track", "malformations.track", "opal_place_ii.track", "re_akina.track", "sandline_ultimatum.track", "snow_park.track", "winter_hollow.track"].map((t => get(this, AN, "m", TN).call(this, t, e)))).then((e => {
+                Promise.all(["anubis.track", "asguardia.track", "flying_dreams.track", "ghost_city.track", "joenail_jones.track", "mos_espa.track", "natsujo.track", "90_reset.track", "arabica.track", "clay_temples.track", "concrete_jungle.track", "desert_stallion.track", "hyperions_sanctuary.track", "las_calles.track", "last_remnant.track", "lu_muvimento.track", "malformations.track", "opal_place_ii.track", "re_akina.track", "sandline_ultimatum.track", "snow_park.track", "winter_hollow.track"].map((t => get(this, AN, "m", TN).call(this, t, e)))).then((e => {
                     set(this, xN, e, "f")
                 }
                 )).catch((e => {
