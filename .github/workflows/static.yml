@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: polyeditor.cwcinc.dev
+      url: https://polyeditor.cwcinc.dev
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
