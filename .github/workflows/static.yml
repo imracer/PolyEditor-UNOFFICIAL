@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://polyeditor.cwcinc.dev
+      url: https://imracer.github.io/PolyEditor-UNOFFICIAL/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
